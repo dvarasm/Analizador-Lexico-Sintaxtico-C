@@ -1,0 +1,13 @@
+Mi analizador lexico (lexico.l) y sintactico (sintax.y) reconoce los tipos de variables, operadores aritméticos y lógicos sobre las variables, y las funciones: if – else – for – do – while.
+
+No reconoce funciones como printf o scanf, ademas lee solo la estructura basica del lenguaje c sin funciones, tampoco detecta comentarios de ningun tipo, segun el enunciado no especificaba implementar la deteccion de nada de lo anterior.
+
+Se agrega un archivo "pru.c" el cual es compilable mediante gcc y no entrega ningun error de compilacion, el cual es reconocido de la misma manera por mi analizador.
+
+Se agrega un archivo ejecutable "run.sh" el cual contiene las lineas de comando para compilar el analizador
+
+Se ejecuta: 
+	>sh run.sh
+	>./analizador nombre_archivo_a_analizar
+
+Diego Varas Moya
